@@ -1,0 +1,920 @@
+﻿.sfPageEditorWrp #alertModal,
+.sfPageEditorWrp .modal-backdrop{
+    display: none!important;
+}
+
+
+a {text-decoration: none; color: #930;}
+a:hover, a:focus  {text-decoration: underline; color: #930;}
+a:Visited {text-decoration: none; color: #930;}
+a:Visited:Hover,a:Visited:focus {text-decoration: underline; color: #930;}
+a:focus{ border: 2px dotted #345d75;}
+
+h1, h2, h3{
+    font-family: "Times New Roman", Times, serif;
+    color: #930;
+    margin-top: 0em;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1.25em;
+}
+
+.fa-stack,
+a.fa-stack,
+a.fa-stack:hover,
+a.fa-stack:focus{
+    color: #345d75;
+}
+a.fa-stack:hover,
+a.fa-stack:focus{
+    opacity: .7;
+}
+.fa-stack-1x{
+    color: #fff!important;
+}
+
+
+
+
+.cpButton{
+    width: 110px;
+}
+
+
+.equalHousingImg{
+    padding-bottom: 1em;
+}
+
+.hpH1{
+    margin-top: .25em;
+}
+
+#Content h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#secContent h1{
+    color: #000;
+    font-size: 2.5em;
+    padding: 0px;
+    line-height: 1em;
+    padding-bottom: .5em;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    margin-bottom: .5em;
+}
+
+
+#secContent h2{
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    font-size: 1.65em;
+    margin-top: 1em;
+    padding: 0px;
+    line-height: 1em;
+    padding-bottom: .25em;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    margin-bottom: .75em;
+}
+
+#secContent h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: 1em;
+    font-weight: 700;
+    margin-top: 2em;
+    padding: 0px;
+    line-height: 1em;
+    margin-bottom: .25em;
+}
+#secContent h1, 
+#secContent h2,
+#secContent h3{
+	border-bottom-color: #345d75;	
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td{
+   background-color: #E5F0F6;
+ }
+
+.table-striped > tbody > tr > th{
+    color: #fff;
+    background-color: #345d75;
+}
+.table-striped > tbody > tr:nth-child(odd) > th {
+    background-color:#345d75;
+}
+
+#secContent ul{
+    margin-bottom: 2em;
+}
+#secContent ul li{
+    margin-bottom: .5em;
+}
+#secContent .well{
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+#secContent .well p:last-child{
+    margin-bottom: 0em;
+}
+
+
+/*==========  Header  ==========*/
+#Header{
+    background-color: #efefef;
+    padding: 1.5em 0em 1em 0em;
+    margin-bottom: 2em;
+}
+
+#HomeContainer #Header{
+    background-color: #efefef;
+}
+#SecContainer #Header{
+    background-color: #fff;
+    margin-bottom: 0em;
+}
+
+
+
+/*==========  Top Navigation  ==========*/
+
+#TopNav{
+	background-color: #345d75;
+    padding-top: .8em;
+    padding-bottom: .7em;
+	} 
+#TopNav p {
+    font-size: .9em;
+    float: right;
+    color: #fff;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    line-height: 1em;
+}
+#TopNav p a {
+    color: #fff;
+}
+
+.headerLogInBtn{
+    font-size: .9em!important;
+    background-color: #fff;
+    padding: 6px 10px 6px 10px;
+    margin-left: 8px;
+    font-weight: 500;
+    color: #000!important;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+
+
+
+
+.loginLogo{
+    width: 300px;
+}
+
+/*==========  Login Modal  ==========*/
+
+.loginModal h1{
+    font-size: 1.5em;
+    text-align: center;
+}
+.modal-footer p{
+    float: left!important;
+    /* font-weight: bold; */
+    font-size: 1em!important;
+    color: #666!important;
+}
+.loginModal a{
+     color: #002D56;
+}
+.loginModal a:hover,
+.loginModal a:focus{
+    color: #930;
+    text-decoration: underline;
+}
+.close{
+    padding: 0px 4px 4px 4px!important;
+    border: 1px solid #ccc!important;
+    border-radius: 4px;
+    color: #333;
+    opacity: 1!important;
+    font-weight: 400;
+}
+.close:hover,
+.close:focus{
+        background: #efefef;     
+        text-decoration: underline; 
+}
+
+.modal-footer .btn-default.active, .modal-footer .btn-default:active, .modal-footer .btn-default:hover, .modal-footer .btn-default:focus, .modal-footer .open>.btn-default.dropdown-toggle{
+    text-decoration: underline;
+}
+
+/*==========  Main Navigation  ==========*/
+
+.navbar{
+    margin-bottom: 0em;
+    margin-top: .5em;
+    min-height: 0px;
+}
+.navbar-default{
+    background-color: transparent;
+    border: none!important;
+}
+    .navbar-default .navbar-nav > li > a {
+        font-size: 1.2em;
+    }
+    .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+        color: #333;
+    }
+.dropdown-menu > li > a{
+    white-space: normal;
+}
+
+.navbar-nav>li:hover,
+.navbar-nav>li:focus{
+    background: #efefef;
+    text-decoration: underline;
+}
+.navbar-right .dropdown-menu{
+    min-width: 250px;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    text-decoration: underline;
+}
+.navbar-brand{
+    height: auto;
+    padding: 0px;
+    margin-top: -6px;
+}
+.navbar-brand img{
+    max-height: 69px;
+}
+
+
+
+/*==========  Side Navigation  ==========*/
+.sideNav{
+    background-color: #efefef;
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.sideNav .nav-pills>li{
+    float: none;
+    margin-bottom: 1em;
+}
+
+.sideNav .nav-pills>li>ul{
+    padding-left: 0em;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.sideNav .nav-pills>li>ul>li,
+.sideNav .nav-pills>li>ul>li>ul>li{
+    float: none;
+    list-style: none;
+    margin-bottom: .7em;
+    line-height: 1.1em;
+}
+.sideNav .nav-pills>li>ul>li>ul>li{
+    margin-bottom: .5em;
+}
+.sideNav .nav>li>a{
+    font-size: 1.1em;
+    padding: 0px 0px 10px 0px;
+    color: #000;
+    line-height: 1em;
+}
+
+.sideNav .nav>li>a:hover,
+.sideNav .nav>li>ul>li>a:hover,
+.sideNav .nav>li>a:focus,
+.sideNav .nav>li>ul>li>a:focus{
+    color: #930;
+    text-decoration: underline;
+}
+
+.sideNav .nav>li>a{
+    font-size: 1em;
+    padding: 0px 0px 4px 0px;
+}
+#secContent .sideNav ul li ul,
+#secContent .sideNav ul li ul li ul{
+    padding-left: 0px;
+}
+    .sideNav .nav>li>ul>li>a{
+        padding: 3px 0px 0px 0px;
+        color: #000;
+    }
+
+.sideNav .nav-pills>li.active>a,
+.sideNav .nav-pills>li.active>a:hover,
+.sideNav .nav-pills>li.active>a:focus{
+    background: none;
+    color: #000;
+}
+
+#secContent .sideNav ul{
+    margin-bottom: 0em;
+}
+
+#secContent .sideNav ul li ul,
+#secContent .sideNav ul li ul li ul{
+    margin-bottom: 1em;
+    margin-top: .5em
+}
+#secContent .sideNav ul li ul li ul{
+    font-size: .9em;
+    padding-top: 0em;
+    padding-left: 0em;
+    padding-bottom: 0em;
+    margin-bottom: 0em
+}
+
+
+
+.sigSiteMap .nav>li>a{
+    padding: 0em 10px;
+
+}
+.nav-sitemap>li{
+    width: 25%;
+}
+
+/*==========  Login Form  ==========*/
+.logOnForm{
+   background-color: #345d75;
+   padding: 1em;
+   border-radius: 1em;
+   margin-bottom: 1em;
+}
+.logOnForm h2,
+.logOnForm p,
+.logOnForm label{
+    color: #fff;
+}
+.logOnForm h2{
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+.logOnForm p{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    color: #ffff99;
+} 
+.logOnForm p a{
+        color: #ffff99;
+
+}
+p.logOnFormServices,
+p.logOnFormServices a,
+p.logOnFormServices a:hover,
+p.logOnFormServices a:focus{
+    color: #ffffff;
+    margin-top: 1.5em;
+}
+
+
+.btn-logon { 
+  color: #345d75; 
+  font-weight: bold;
+  background-color: #ffffff; 
+  border-color: #ffffff; 
+  margin-top: 5px;
+} 
+.btn-logon:hover, 
+.btn-logon:focus, 
+.btn-logon:active, 
+.btn-logon.active, 
+.open .dropdown-toggle.btn-logon { 
+  color: #345d75; 
+  background-color: #efefef; 
+  border-color: #efefef; 
+} 
+ 
+.btn-logon:active, 
+.btn-logon.active, 
+.open .dropdown-toggle.btn-logon { 
+  background-image: none; 
+} 
+ 
+.btn-logon.disabled, 
+.btn-logon[disabled], 
+fieldset[disabled] .btn-logon, 
+.btn-logon.disabled:hover, 
+.btn-logon[disabled]:hover, 
+fieldset[disabled] .btn-logon:hover, 
+.btn-logon.disabled:focus, 
+.btn-logon[disabled]:focus, 
+fieldset[disabled] .btn-logon:focus, 
+.btn-logon.disabled:active, 
+.btn-logon[disabled]:active, 
+fieldset[disabled] .btn-logon:active, 
+.btn-logon.disabled.active, 
+.btn-logon[disabled].active, 
+fieldset[disabled] .btn-logon.active { 
+  background-color: #efefef; 
+  border-color: #efefef; 
+} 
+ 
+.btn-logon .badge { 
+  color: #efefef; 
+  background-color: #ffffff; 
+}
+
+
+.form-inline .control-label, .form-inline .form-group{
+    vertical-align: top;
+}
+.field-validation-error{
+    margin-top: 0em;
+margin-bottom: 0em;
+color: #ffff99;
+}
+
+/*==========  Overview Template  ==========*/
+
+#overviewImage img{
+    margin-bottom: -2em;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.overviewTitle{
+    font-style: italic;
+    font-size: .7em;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    text-decoration: underline;
+}
+
+/*==========  Table Styles  ==========*/
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+   border: 2px solid #fff;
+}
+
+
+/*==========  Secondary Page Template  ==========*/
+
+#SecContainer{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#80a3b7+0,ffffff+100&amp;0.4+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(128,163,183,0.4) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(128,163,183,0.4) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(128,163,183,0.4) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6680a3b7', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+#secContent{
+    background-color: #fff;
+    border-radius: 1em;
+    margin-top: 2em;
+    padding: 2em;
+}
+
+.buttonBox {
+    background-color: #efefef;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+#secContent .buttonBox {
+    background-color: #e4eff0;	
+}
+
+#secContent .buttonBox h2,
+#Content .buttonBox h2{
+	font-size: 1.35em;
+    line-height: 1.15em;
+    color: #930;
+	border: none;
+	margin-bottom: 0em;
+    margin-top: 0em;
+    border-bottom: none;
+}
+
+#Content .buttonBox h2 {
+    font-size: 1.2em;
+}
+#secContent .buttonBox h2 a:Hover,
+#secContent .buttonBox h2 a:Visited:Hover
+#secContent .buttonBox h2 a:focus,
+#secContent .buttonBox h2 a:Visited:focus{
+    color: #930!important;
+    text-decoration: underline;
+}
+
+.buttonBox p {
+    color: #222;
+	font-size: 1em;
+	line-height: 1.15em;
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+#Content .buttonBox p{
+    font-size: .95em;
+    margin-top: .2em;
+}
+.buttonBox img{
+    width: 36px;
+    margin-top: 6px;
+}
+
+
+
+
+.sfexpandableListWrp{
+    margin-top: 2em;
+}
+ul.sflistList {
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+#secContent ul.sflistList{
+    margin-bottom: 0em;
+}
+li.sflistListItem{
+    list-style: none;
+}
+.sflistItemContent{
+    padding-bottom: 1em;
+}
+#secContent h3.sflistTitle{
+    margin-top: 1em;
+
+}
+
+#secContent h3.sflistItemTitle{
+    font-size: 1em;
+    margin-top: .5em;
+    border-bottom: none;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+.sflistExpandAllLnkWrp{
+    display: none;
+}
+
+
+
+
+/*  SEARCH Form */
+
+.sfsearchResultTitle{
+    margin-top: 1.5em;
+}
+.sfsearchResultHighLighter{
+    font-size: .9em;
+}
+
+
+/* Career List */
+
+.sbCareerListItem{
+    background-color: #efefef;
+    border-radius: 1em;
+    padding: 1.5em;
+    margin-bottom: 1em;
+}
+
+.sbCareerListItem h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
+
+.careerDetailTitle{
+    margin-top: 1em;
+}
+.sfnewsLinksWrp{
+    margin-bottom: 1em;
+}
+
+
+
+
+
+.shareButtons{
+    margin-top: 0em;
+    margin-bottom: 2em;
+
+    display: block;
+    width: auto;
+}
+
+
+
+
+
+#Footer{
+    border-top: solid 5px #345d75;	
+    margin-top: 2em;
+    padding-top: 2em;
+}
+.footerNav p{
+    font-size: .9em;
+}
+
+.footerFootNote,
+p.footerFootNote{
+    font-size: .95em!important;
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+.footNote{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: .95em;
+    font-style: italic;
+}
+
+.footNote p{
+    margin-bottom: .5em;
+}
+
+
+
+/*==========  MVC Styles  ==========*/
+
+.sf-list-item{
+    margin-bottom: 2em;
+}
+.sf-list-content{
+    margin: 1.5em 1em 2em 1.5em;
+}
+#secContent .sf-list-item h3{
+    margin-top: 1em;
+}
+
+.overviewNav .nav-stacked>li{
+    font-weight: 700;
+    height: 30px;
+}
+
+ul.locationCityList{
+    margin-top: 3em;
+    padding-left: 0em;
+}
+ul.locationCityList li{
+    display: inline-block;
+    margin-right: 1em;
+}
+ul.locationCityList li:before{
+    content:'\ffed'; margin-right:0.5em; 
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+
+        .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+            font-size: .9em;
+            line-height: 1.25em;
+        }
+
+        #Content .buttonBox h2,
+        #secContent .buttonBox h2{
+            font-size: 1.20em;
+        }
+        #Content .buttonBox p,
+        #secContent .buttonBox p{
+            font-size: .9em;
+        }
+        .buttonBox img{
+            width: 40px;
+        }
+        #Footer p {
+            font-size: .85em;
+        }
+                .footNote p{
+            font-size: .75em!important;
+        }
+
+
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+
+        #TopNav p {
+        font-size: .8em;
+         }
+        .navbar{
+            margin-top: 0em;
+        }
+        .navbar-default .navbar-nav>li>a{
+            font-size: 1em;
+        }
+        .navbar-right{
+            margin-top: -4px;
+        }
+        .navbar-brand{
+            margin-top: 0px;
+        }
+        .navbar-brand img{
+            max-height: 49px;
+        }
+                .sigSiteMap .nav>li>a{
+        padding: 0em 6px;
+        line-height: 1.25em;
+        font-size: .9em
+        }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+        p{
+            font-size: 1em;
+        }
+  
+        #secContent{
+            padding: 1em;
+        }
+
+
+        .sideNav{
+            padding: 1.5em 1em 1em 1em;
+            margin-top: 1em;
+        }
+
+        .sideNav .nav-pills>li{
+            margin-bottom: .25em;
+        }
+
+        .sideNav .nav-pills>li>ul{
+            padding-left: .5em;
+            font-size: .8em;
+        }
+        .sideNav .nav-pills>li>ul>li{
+           margin-bottom: .5em;
+           line-height: 1em;
+           margin-bottom: .75em;
+        }
+        .sideNav .nav>li>a{
+            font-size: 1em;
+            padding: 0px 0px 8px 0px;
+        }
+
+
+
+        #secContent h1{
+            font-size: 2em;
+            padding-bottom: .25em;
+            margin-bottom: .5em;
+            border-bottom-width: 3px;
+        }
+        #secContent h3{
+            font-size: 1.45em;
+            
+        }
+        .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+            font-size: .8em;
+        }
+
+
+            .hpH1{
+                margin-top: 0em;
+            }
+
+
+
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+              h1,
+              #secContent h1{
+                    font-size: 2em;
+                }
+
+
+             #TopNav p {
+                 font-size: .8em;
+                text-align: center;
+                float: none;
+            }
+
+            .headerLogInBtn{
+                margin-left: .5em;
+            }
+             
+
+                    .buttonBox{
+            border-radius: 0px;
+        }
+        .loginLogo{
+            width: 150px;
+        }
+        .loginModal h1{
+            font-size: 1.15em;
+        }
+
+            #Header{
+                padding: .75em 0em .25em 0em;
+                margin-bottom: 1em;
+            }
+  
+
+
+          .navbar{
+                margin-top: 0em;
+                min-height: 40px;
+            }
+
+
+            .nav{
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .navbar-toggle{
+                margin-right: 0px;
+                padding: 9px 10px;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                background-color: #fff;
+            }
+
+            .navbar-collapse{
+                float: right;
+                background-color: #efefef;
+                width: 100%;
+                margin-top: 0em;
+                border-radius: 0em;
+                padding: 0px;
+               /*
+                
+                margin-left: -130px;
+                text-align: center;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                max-height: 300px;*/ 
+            }
+
+           #HomeContainer .navbar-collapse{
+                background-color: #fff;
+
+            }
+
+            .navbar-default .navbar-nav>.open>a, 
+            .navbar-default .navbar-nav>.open>a:hover, 
+            .navbar-default .navbar-nav>.open>a:focus{
+                background-color: #345d75;
+                color: #fff;
+            }
+
+
+            .navbar-nav .open .dropdown-menu{
+                background-color: #fff;
+            }
+            #HomeContainer .navbar-nav .open .dropdown-menu{
+                background-color: #fff;
+            }
+
+
+	    .navbar-brand img{
+            max-height: 50px;
+            margin: .5em 0em .5em 0em;
+        }
+                .sideNav{
+            border-radius: 0px;
+        }
+
+        .logOnForm h2{
+            margin-bottom: .25em;
+        }
+        .logOnForm p{
+           font-size: .8em;
+        }
+        .logOnForm .form-group{
+            margin-bottom: 6px;
+        }
+
+
+
+    }
+
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }

@@ -1,0 +1,140 @@
+﻿body{
+	background-color: #002D56;
+}
+
+.gifLogo{
+    margin: 7em auto 0em auto;
+}
+
+
+.cButtons{
+    margin-top: 2em;
+    text-align: left;
+}
+.cButtons img{
+    padding-right: 2em;
+}
+
+.logOnForm{
+   background-color: #002D56;
+   padding: 1em 0em 1em 7.5em;
+   border-radius: 0em;
+   margin-bottom: 0em;
+   border-right: solid 1px #fff;
+}
+.logOnForm h2{
+    font-size: 1.5em;
+}
+
+
+
+     
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html,
+body,
+#PublicWrapper {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -340px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 340px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+#footer img{
+    margin: auto;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+                .gifLogo {
+            margin: 5em auto 0em auto;
+        }
+        .logOnForm{
+            padding: 1em 1em 1em 6em;
+        }
+        .cpButton{
+            width:90px;
+        }
+        .cButtons img{
+            padding-right: 1em;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+                .gifLogo {
+            margin: 3em auto 0em auto;
+        }
+        .logOnForm{
+           background-color: #002D56;
+              padding: 0em 0em 1em 0em;
+
+           border-radius: 0em;
+           margin-bottom: 0em;
+           border-right: solid 0px #fff;
+           border-bottom: solid 1px #fff;
+        }
+        .cButtons{
+            text-align: center;
+        }
+        .logOnForm,
+        .logOnForm .form-inline{
+            text-align: center;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .gifLogo {
+            margin: 2em auto 0em auto;
+        }
+        .logOnForm{
+            margin-top: 1em;
+        }
+
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+                .gifLogo {
+            width: 80%;
+            margin: 1em auto 0em auto;
+        }
+                .cButtons{
+margin-top: .75em;
+}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }

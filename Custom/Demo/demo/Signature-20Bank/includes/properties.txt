@@ -1,0 +1,73 @@
+// properties.txt
+
+//Determine which file will be used for the logo
+//logo = ["sample-bank-green-sm.gif"];
+logo = ["SBNY Logo.gif"];
+
+//Determine which file will be used for the Advanced Login Authentication logo
+logo_eam = ["V85_banklogo.png"];
+
+//determine which file will be used for the Bill Pay logo
+billpaylogo = ["blank.gif"];
+//billpaylogo = ["sample-bank-green-sm.gif"];
+
+//determine which file will be used for the Remote Deposit Capture logo
+rdclogo = ["blank.gif"];
+//rdclogo = ["sample-bank-green-sm.gif"];
+
+//determine the product name in the header, sign on pages and Welcome page
+product = ["Internet Banking Demo"]
+
+//Determine which file will be used for the banner
+//banner = ["blank.gif"];
+banner = ["bibdemo2.gif"];
+
+//Determine which files and captions will be used for the graphics on the landing page
+//Comment any graph and associated text if not desired
+//The graphs and text can be rearranged in the order desired
+//For instance, graph0 = ["main_graph_2.gif"] and text0 = ["NACHA"], etc.
+graph0 = ["blank.gif"];
+text0 = [""];
+
+graph1 = ["blank.gif"];
+text1 = [""];
+
+graph2 = ["blank.gif"];
+text2 = [""];
+
+graph3 = ["blank.gif"];
+text3 = [""];
+
+//Landing page content (modules_main.html)
+//Select if the demo will be a corporate demo or a small business demo.
+//1. If you want to display the landing page for corporate version 
+//uncomment accounttype = ["accountreporting"]
+//2. If you want to display the landing page for small business
+//uncomment accounttype = ["reporting"]
+
+accounttype = ["accountreporting"];  //configure landing page for corporation version 
+//accounttype = ["reporting"];		//configure landing page for small business
+
+
+
+
+//branded_messages = ['yes'];
+branded_messages = ['no'];
+
+//standard_branding = ['yes'];
+standard_branding = ['no'];
+
+//title_branding =['yes'];
+title_branding =['no'];
+
+//Yes will be used to show detail calculations for RegDD balance info, else partial info will be shown
+//regDD_calculations = ['yes'];
+regDD_calculations =['no'];
+
+important_message = ['yes'];
+//important_message = ['no'];
+
+
+//Property for Background demo Image
+//Demo_background = ['yes'];
+Demo_background = ['no'];

@@ -1,0 +1,82 @@
+<!-- Result: login   -->
+<!-- Page: /websso-wls10/verify.cgi?p/login.thtm:TN-CC=&TN-UID= -->
+<html>
+<head>
+ <title>Sign-In</title>
+<script language=JavaScript>
+window.name = "InformPL_Top";
+
+var unsup = "";
+if( navigator.appCodeName=="Mozilla"
+   && navigator.appVersion.indexOf(" MSIE ")!=-1 )
+{
+   if( navigator.userAgent.indexOf(" Opera ")!=-1 ) unsup = "Opera";
+}
+else
+{
+   unsup = navigator.appName;
+   if( unsup=="" || unsup==undefined || unsup=="Microsoft Internet Explorer" )
+      unsup = "This";
+}
+if( unsup!="" )
+{
+   if( unsup=="Netscape" )
+      unsup = "Netscape is no longer a supported browser."
+   else
+      unsup = unsup + " is not a supported browser."
+   alert(unsup + ' Please refer to the "About" tab on the home page for a list'
+      + ' of certified browsers and Customer Assistance contacts'
+      + ' if you have questions or require technical assistance.')
+}
+else 
+{
+    var msie = navigator.userAgent.indexOf ( "MSIE " );
+    if (msie > -1)
+    {
+    	if (isOldMSIEversion())
+    	{
+		alert("It has been detected that your web browser may be using Secure Socket Layer (SSL) 3.0, which is an obsolete version that has been identified as having security vulnerabilities. In the near future, the application will prevent users from connecting with us using browsers with this obsolete version. If you are using SSL 3.0, you will need to appropriately update your web browser and security configurations.");
+    	}
+    /*
+    	alert ("window.atob (10) = " + window.atob + "\n document.addEventListener (9) = " + document.addEventListener + "\n document.querySelector (8) = " + document.querySelector +
+    	"\n document.documentMode (8) = " + document.documentMode + "\n window.XMLHttpRequest (7) = " + window.XMLHttpRequest +
+    	"\n document.compatMode (6) = " + document.compatMode);
+    */
+     }
+}
+
+if( navigator.userAgent.indexOf("Windows 98")!=-1 )
+{
+alert('On January 1st of 2007, we will no longer support the Windows 98 platform. We will continue to provide support on Windows XP and Windows 2000 platforms.  Please contact your technical support team for assistance on upgrading to one of the supported platforms.')
+}
+else if( navigator.userAgent.indexOf("Windows NT 4.0")!=-1 )
+{
+alert('As of January 1, 2009, we no longer provide support for the Windows NT platform. We will continue to support Windows XP and Windows 2000 platforms.  If required, contact your technical support team for assistance on upgrading to one of the supported platforms.')
+}
+else if( navigator.userAgent.indexOf("Windows NT 6.0")!=-1 )
+{
+alert('Windows Vista Certification: \n \nWe are in the process of finalizing the Windows Vista certification for this application. At this time, all of the features of the application are accessible via Windows Vista. However, each login attempt will require you to provide answers to security challenge questions. Upon answering these questions, please do not check off the box to register your computer as this will result in an error. Please contact your Technical Support team for assistance if necessary.')
+}
+
+function isOldMSIEversion() {
+    var ua = window.navigator.userAgent;
+    var msie6 = ua.indexOf ( "MSIE 6" );
+    var msie7 = ua.indexOf ( "MSIE 7" );
+    var msie8 = ua.indexOf ( "MSIE 8" );
+
+    var trident = ua.indexOf ("Trident");
+    var trident4 = ua.indexOf ("Trident/4");
+
+    if ( (msie6 > -1 || msie7 > -1 || msie8 > -1) && (trident == -1 || trident4 > -1))  // If Internet Explorer 6,7,8 return true
+        return true;
+    else                 // If another browser, return false
+        return false;
+}
+
+
+</script>
+</head>
+<frameset rows="*,0" border="0">
+<frame name="signon" scrolling="auto" noresize marginheight="0" marginwidth="0" src="https://mtf.signatureny.com/websso/verify.cgi?p/.signon.thtm:TN-UID=&amp;TN-CC=">
+</frameset>
+</html>
